@@ -1,21 +1,15 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Social Media Activity (Reddit)
-# ## User details
-# Personal Use Script = spPNYij_x7qb1Q
-# Secret = 	FUTUrqVaEO1gXucRL5queHodJDA
-
-# In[1]:
-
-
 # Import the necessary libraries
 import praw
 import numpy as np
 import pandas as pd
 
 # Authenticate PRAW
-reddit = praw.Reddit(client_id='spPNYij_x7qb1Q',                     client_secret='FUTUrqVaEO1gXucRL5queHodJDA',                     user_agent='data-wrangling-app')
+reddit = praw.Reddit(client_id='xxxxxx',                     
+                     client_secret='xxxxxx',                     
+                     user_agent='data-wrangling-app')
 
 #reddit.read_only (only used to check if authentication was successful)
 
